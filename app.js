@@ -6,13 +6,24 @@ const n4 = 5;
 
 const isDisivible = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) == 0;
 
-
 // const isDisivible = (n1 % 5) || (n2 % 5) || (n3 % 5) || (n4 % 5) == 0;
 // if you change any value will give you a number result instead of boolean
 
 const firstNumGreater = n1 > n4 == true;
-console.log(firstNumGreater);
 
+const thirdTask = (((n2 - n1) * n3) % n4);
+console.log("All together: " + thirdTask);
+const firstMinusSec = n2 - n1;
+const multiplyThird = firstMinusSec * n3;
+const remainderFourth = multiplyThird % n4;
+console.log("First: " + firstMinusSec + " Second: " + 
+    multiplyThird + " Third: " + remainderFourth);
+
+
+const isOver25 = n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25;
+const over25 = (n1 > 25) + (n2 > 25) + (n3 > 25) + (n4 > 25) == false;
+console.log(/*"isOver25: " + isOver25 */ 
+        " over25: " + over25);
 // Check one: add up to 50
 // This is a fairly simple operation using
 // arithmetic operators and a comparison.
@@ -27,7 +38,6 @@ const isTwoOdd = (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2;
 // Check three: no number larger than 25
 // This time, we use the OR operator to check
 // if ANY of the numbers is larger than 25.
-const isOver25 = n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25;
 
 // Check four: all unique numbers
 // This is long, and there are more efficient
