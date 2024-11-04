@@ -12,18 +12,18 @@ const isDisivible = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) == 0;
 const firstNumGreater = n1 > n4 == true;
 
 const thirdTask = (((n2 - n1) * n3) % n4);
-console.log("All together: " + thirdTask);
+// console.log("All together: " + thirdTask);
 const firstMinusSec = n2 - n1;
 const multiplyThird = firstMinusSec * n3;
 const remainderFourth = multiplyThird % n4;
-console.log("First: " + firstMinusSec + " Second: " + 
-    multiplyThird + " Third: " + remainderFourth);
+// console.log("First: " + firstMinusSec + " Second: " + 
+//     multiplyThird + " Third: " + remainderFourth);
 
 
 const isOver25 = n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25;
 const over25 = (n1 > 25) + (n2 > 25) + (n3 > 25) + (n4 > 25) == false;
-console.log(/*"isOver25: " + isOver25 */ 
-        " over25: " + over25);
+/*console.log(/*"isOver25: " + isOver25  " over25: " + over25); */
+
 // Check one: add up to 50
 // This is a fairly simple operation using
 // arithmetic operators and a comparison.
